@@ -1,0 +1,4 @@
+root = true
+
+[*.razor]
+dotnet_diagnostic.RZ9992.severity = none

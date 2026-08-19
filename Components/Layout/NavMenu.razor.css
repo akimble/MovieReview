@@ -81,10 +81,6 @@
     color: white;
 }
 
-.nav-scrollable {
-    display: none;
-}
-
 .navbar-toggler:checked ~ .nav-scrollable {
     display: block;
 }
@@ -102,4 +98,14 @@
         height: calc(100vh - 3.5rem);
         overflow-y: auto;
     }
+}
+
+.nav-scrollable nav {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.sign-out {
+    margin-top: auto;
 }
